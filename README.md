@@ -13,7 +13,3 @@ Near-surface geophysical methods are key tools in environmental and engineering 
 ### References
 - Rücker, C. and Günther, T. and Wagner, F. M. (2017): pyGIMLi: An open-source library for modelling and inversion in geophysics. Computers & Geosciences. https://doi.org/10.1016/j.cageo.2017.07.011
 - Wagner, F. M. and Uhlemann, S. (2021): An overview of multimethod imaging approaches in environmental geophysics. Advances in Geophysics, Vol. 44. https://doi.org/10.1016/bs.agph.2021.06.001
-
----
-
-*Please note that workshop material will be made available here a few weeks before the workshop.*
