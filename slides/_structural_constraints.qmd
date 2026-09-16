@@ -4,55 +4,55 @@
 ## {{< fa bullseye >}} Goals of this part of the workshop 
 
 ::: {.incremental}
--   Get to know the possibilities if including a-priori information as constraints into inversions.
+-   Get to know the possibilities of **including a-priori information** as constraints into inversions.
 
--   Incorporate geological a-priori information into regularization. 
+-   Incorporate **geological and structural** a-priori information into regularization. 
 
--   Incorporate information extracted from GPR as constraints in ERT.
+-   Incorporate  reflectors visible in **GPR measurements** as constraints in ERT.
 
--   Apply interactive tools to extract constraints from images or models.
+-   Apply **interactive tools** to extract constraints from images or models.
 :::
 
 ## Including structural information 
 
 ::: {.incremental}
 
--   Structural information can be a useful addition to any inversion to reduce ambiguity.
+-   Structural information can be a **useful addition** to any inversion to **reduce ambiguity**.
 
 -   Possible sources of information:
 
-    - wave methods (seismics, GPR,...)
-    - point-wise lithological borehole information
-    - geological maps or models / cross sections
+    - **wave methods (seismics, GPR,...)**
+    - point-wise **lithological borehole information**
+    - **geological maps** or models / cross sections
     - ...
 
--   Those information can be easily integrated into the mesh used for inversion 
+-   Those information can be **easily integrated** into the mesh used for inversion 
 :::
 
 ## Geostatistical regularization 
 
--   Alternative way to smoothness-constrained inversions using a covariance matrix to quantify the correlation of model parameters in different cells
+-   **Alternative way to smoothness-constrained inversions** using a covariance matrix to quantify the correlation of model parameters in different cells
 
--   Based on geological analysis, an estimation of i) vertical and horizontal correlation lengths, ii) the dip direction and iii) the strike angle (in 3D) is included into the inversion
+-   Based on **geological or structural analysis**, an estimation of *i) vertical and horizontal correlation lengths*, *ii) the dip direction* and *iii) the strike angle* (in 3D) is included into the inversion
 
--   The resulting covariance matrix is given as:
+-   The resulting **covariance matrix** is given as:
 
 $$
     \mathbf{C}_{\text{M,i,j}} = \sigma^2 exp\left(-3 \sqrt{\left(\frac{\mathbf{H_{x,i,j}}}{I_x}\right)^2 + \left(\frac{\mathbf{H_{y,i,j}}}{I_y}\right)^2 + \left(\frac{\mathbf{H_{z,i,j}}}{I_z}\right)^2}\right)
 $${#eq-covar}
 
--   Each row of the covariance matrix contains the spatial correlation function for one particular cell.
+-   Each **row** of the covariance matrix contains the **spatial correlation function for one particular cell**.
 
-- Example notebook: `Applying geostatistical constraints`
+-   Example notebook: `Applying geostatistical constraints`
 
 
 ## Inversion with simple structural constraints
 
--   Structural information can not only be derived from geological or structural information, but also from measurements using other geophysical methods.
+-   Structural information can not only be derived from geological or structural information, but also from **measurements using other geophysical methods**.
 
--   In our case: measured GPR data are loaded and reflector is picked to define a structural constraint to further refine an ERT inversion.
+-   In our case: measured **GPR data** are loaded and **reflector is picked** to define a structural constraint to further refine an ERT inversion.
 
-- Other possibilities: 1D downhole geophysical measurements, other wave methods (reflection seismics), ...
+- Other possibilities: **1D downhole geophysical measurements**, other wave methods (reflection seismics), ...
 
 ![](images/ERT_GPR_constraints.png){fig-align="center"}
 
@@ -61,11 +61,11 @@ $${#eq-covar}
 ## {{< fa flag-checkered >}} Takeaway messages:
 :::{.incremental}
 
-- We applied advanced regularization techniques to our individual inversions
+- We **applied advanced regularization techniques** to our individual inversions
 
-- We constrained the individual inversions using 
-  * geological borehole information
-  * GPR reflections
+- We **constrained the individual inversions** using 
+  * **geological borehole information**
+  * **GPR reflections**
 
-- We evaluated and compared the constrained models and quantified the effect of adding a-priori information
+- We **evaluated and compared** the constrained models and quantified the effect of adding a-priori information
 ::: 
