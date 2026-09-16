@@ -1,0 +1,21 @@
+# Joint inversion of ERT and SRT data 
+{{< fa forward >}} The more, the merrier?
+
+## {{< fa bullseye >}} Goals of this part of the workshop 
+
+::: {.incremental}
+-   Learn the necessary steps to successfully perform a joint inversion.
+
+-   Apply the cross-gradient algorithm to jointly invert SRT and ERT using actual field data.
+
+-   Evaluate and compare the joint inversion results to individually inverted data sets.
+
+-   **Optional:** Apply the algorithm to your own data sets!
+:::
+
+
+
+## {{< fa flag-checkered >}} Takeaway messages:
+:::{.incremental}
+- fill in main takeaway messages for joint inversion part here
+::: 

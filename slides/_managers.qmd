@@ -1,0 +1,30 @@
+# pyGIMLi's ERT and traveltime managers
+{{< fa forward >}} Let's start individual!
+
+## {{< fa bullseye >}} Goals of this part of the workshop
+
+::: {.incremental}
+-   Get familiar with pyGIMLI's method managers for ERT and traveltime data.
+
+-   Learn basic operations such as data import, data filtering, and topography addition.
+
+-   Perform your first inversion using either your own field data or our provided data sets.
+
+-   Get to know the basic image appraisal techniques.
+
+-   Apply tools to compare and jointly interpret individual geophysical data sets.
+:::
+
+
+## {{< fa flag-checkered >}} Takeaway messages:
+:::{.incremental}
+- We familiarized ourselves with the method managers to process and invert ERT and SRT data.
+
+- We loaded, filtered, and inverted field data using pyGIMLi and qualitatively evaluated the results
+
+- We applied tools that allow us to quantitatively compare and qualitatively evaluate the single inversion results, such as...
+  * 1D interpolation tools to generate synthetic geoelectrical and acousitic logs
+  * data point - wise misfit examination to identify regions of decreased model goodness. 
+
+- We implemented ways to further improve our individual inversions by penalizing individual data points with increased misfit.
+::: 
